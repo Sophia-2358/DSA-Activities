@@ -151,14 +151,14 @@ string deleteFromTheBeginning(){
 
 string deleteFromTheGiven(int element){
     if(numElem != 0){
-        int index = binarySearch (ElementAfter, 0, numElem);
+        int index = binarySearch(element, 0, numElem);
         
-        for(int i = 0; i <= numElem; i++){
+       /* for(int i = 0; i <= numElem; i++){
             if(myArray[i] == element){
                 index = i;
                 break;
             }
-        }
+        } */
     
         for(int i = index; i <= numElem; i++){
             myArray[i] = myArray[i+1];
