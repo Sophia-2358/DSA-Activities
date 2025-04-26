@@ -109,7 +109,6 @@ int main()
     convertToPostfix(input4);
     string input5 = "(5+6)*(2+1)";
     convertToPostfix(input5);
-   
 
     return 0;
 }
